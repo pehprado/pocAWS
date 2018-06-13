@@ -664,28 +664,30 @@
     ]
   },
   "packageFolders": {
-    "/home/pedro/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Pedro Henrique\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pedro/Development/pocAWS/pocAWS.csproj",
+      "projectUniqueName": "c:\\Users\\Pedro Henrique\\Desktop\\pocAWS\\pocAWS.csproj",
       "projectName": "pocAWS",
-      "projectPath": "/home/pedro/Development/pocAWS/pocAWS.csproj",
-      "packagesPath": "/home/pedro/.nuget/packages/",
-      "outputPath": "/home/pedro/Development/pocAWS/obj/",
+      "projectPath": "c:\\Users\\Pedro Henrique\\Desktop\\pocAWS\\pocAWS.csproj",
+      "packagesPath": "C:\\Users\\Pedro Henrique\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Pedro Henrique\\Desktop\\pocAWS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/pedro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Pedro Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

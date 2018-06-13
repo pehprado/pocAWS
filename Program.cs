@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading;
 
 namespace pocAWS
 {
@@ -7,8 +8,12 @@ namespace pocAWS
     {
         static void Main(string[] args)
         {
-            using (StreamWriter writer = System.IO.File.AppendText("poc.txt")) {
+            while (true)
+            {
+             using (StreamWriter writer = System.IO.File.AppendText("poc.txt")) {
                 writer.WriteLine($"{DateTime.Now}");
+             }
+             Thread.Sleep(1000 * 60 * 2);
             }
         }
     }
